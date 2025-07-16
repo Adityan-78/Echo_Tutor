@@ -1,0 +1,56 @@
+name: echo
+description: A language learning chatbot app with SQLite authentication
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path_provider: ^2.1.5
+  path: ^1.9.0    # File system access for SQLite
+  google_fonts: ^6.2.1  # Custom fonts (optional)
+  provider: ^6.1.4  # State management
+  http: ^1.0.0  # API Requests (For chatbot AI integration)
+  lottie: ^3.3.1
+  flutter_svg: ^2.0.9
+  synchronized: ^3.1.0
+  carousel_slider: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+  confetti: ^0.8.0
+  animations: ^2.0.11
+  flutter_tts: ^4.2.2
+  shimmer: ^3.0.0
+  intl: ^0.18.1
+  flip_card: ^0.7.0
+  flutter_animate: ^4.5.2
+  permission_handler: ^11.4.0
+  speech_to_text: ^7.0.0
+  google_ml_kit: ^0.20.0
+  camera: ^0.11.1
+  image_picker: ^1.1.2
+  translator: ^1.0.3+1
+  file_picker: ^10.0.0
+  google_mlkit_text_recognition: ^0.15.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+
+
+
+flutter:
+  assets:
+    - assets/echo_main.gif
+    - assets/main_echo.gif
+  uses-material-design: true
