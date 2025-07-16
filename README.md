@@ -1,19 +1,31 @@
-# echo
+# 📱 Echo — AI Powered Flutter Language Learning App
 
-Language Learning Chatbot
+Echo Tutor is a cross-platform Flutter app that helps users learn new languages with pronunciation practice, quizzes, translations, and more.
 
+---
 
+## 🚀 Tech Stack
 
-Make sure to replace your API key in all the services/dart files and Screens/Translate_screen.dart. 
-## Getting Started
+- **Framework:** Flutter
+- **Languages:** Dart
+- **Supported Platforms:** Android, iOS, Web, Desktop
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Below are some sample screens from the app:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot 1](Screenshot%202025-07-16%20202545.png)
+
+![Screenshot 2](Screenshot%202025-07-16%20202553.png)
+
+![Screenshot 3](Screenshot%202025-07-16%20202609.png)
+
+---
+
+## ⚙️ How to Run
+
+```bash
+flutter pub get
+flutter run
