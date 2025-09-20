@@ -1,0 +1,8 @@
+min_score: 80
+rules:
+  python: { enable: true }
+  javascript: { enable: true }
+  shell: { enable: true }
+  dockerfile: { enable: true }
+  yaml_json: { enable: true }
+  secrets: { enable: true }
